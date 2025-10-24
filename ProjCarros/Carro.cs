@@ -26,6 +26,12 @@ internal class Carro
         Placa = placa;
     }
 
+    public void SetCor(string cor)
+    {
+        Cor = cor;
+    }
+    
+
     public string ToFile()
     {
         return $"{Id},{Marca},{Modelo},{Ano},{Cor},{Placa}";
